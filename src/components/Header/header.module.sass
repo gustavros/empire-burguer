@@ -1,0 +1,112 @@
+@import "/src/styles/__variables.sass"
+
+.container__header
+
+  position: absolute
+  width: 100%
+
+  margin: 0 auto
+  z-index: 1
+  
+
+  background: rgba(59, 32, 11, 0.05)
+  backdrop-filter: blur(10px)
+
+.container__header .container__wrapper
+  max-width: $max-width
+  width: 100%
+
+  margin: 0 auto
+
+  display: flex
+  align-items: center
+
+  padding-block: 1.7rem 1.3rem
+
+.container__header .container__wrapper .container__logo
+  display: flex
+
+  gap: 0.4rem
+
+  margin-right: 6.1rem
+
+.container__header  .container__wrapper.container__logo svg
+  color: #1D0605E5
+
+.container__header .container__wrapper .container__logo h1
+  font-family: $lato
+  font-size: 2.9rem
+  font-weight: 400
+  text-transform: uppercase
+  color: #1D0605E5
+
+.container__header .container__wrapper .container__logo h1 span
+  font-family: $lato
+  font-size: 2.9rem
+  font-weight: 900
+
+.container__header  .container__wrapper nav ul
+  display: flex
+  align-items: center
+  gap: 1.6rem
+
+  list-style: none
+
+  margin-right: 10rem
+
+.container__header .container__wrapper nav ul li a span
+  font-weight: 700
+  font-family: $lato
+
+.container__header .container__wrapper nav ul li a
+
+  text-decoration: none
+
+  color: #635352
+
+  font-family: $lato
+  font-weight: 400
+  font-size: 1.8rem
+
+.container__header .container__wrapper .container__extras
+  display: flex
+  align-items: center
+
+.container__header .container__wrapper .container__icons
+  display: flex
+  align-items: center
+  gap: 1.3rem
+
+  border-right: 1px solid #B50B04
+  padding-right: 1.3rem
+
+  height: 4rem
+
+.container__header .container__wrapper .container__icons svg path
+  fill: #FFFFFF
+
+.container__header .container__wrapper .container__extras a
+  margin-left: 1.3rem
+
+  background-color: #F59A1B
+  border-radius: 4px
+
+  text-decoration: none
+
+  color: #34201F
+  font-family: $lato
+  font-weight: 700
+  font-size: 1.6rem
+  line-height: 25.2px
+
+  display: flex
+  align-items: center
+  gap: 0.8rem
+
+  padding: 0.4rem 1.6rem
+
+.container__header .container__wrapper .container__extras a svg
+  width: 1.3vw
+
+.container__header .container__wrapper .containerr__extras a svg path
+  fill: #34201F
