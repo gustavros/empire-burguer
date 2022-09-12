@@ -15,7 +15,7 @@
 O projeto ainda está em desenvolvimento e penso em atualizar com as seguintes melhorias:
 
 - [x] Ajustar o código para o funcionamento do site em dispositivos móveis
-- [x] Ajustar o código para o funcionamento do site em dispositivos desktops
+- [ ] Ajustar o código para o funcionamento do site em dispositivos desktops
 - [ ] ..?
 
 ## 💻 Techs e libs usadas
