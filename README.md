@@ -26,4 +26,4 @@ O projeto ainda está em desenvolvimento e penso em atualizar com as seguintes m
 
 > Também usei o Prettier para ajudar na formatação.
 
-[⬆ Voltar ao topo](#mo-movies)<br>
+[⬆ Voltar ao topo](#empire-burguer)<br>
